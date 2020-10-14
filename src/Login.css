@@ -1,0 +1,126 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.login__error {
+  margin-bottom: 20px;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  border: 1px solid red;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.login__errorMsg > span {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.login__container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.login__container > h1 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 98%;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(0, 0, 0, 0.07);
+  outline: 0;
+  line-height: normal;
+}
+
+.login__container > form > input:focus {
+  border: 1px solid rgba(231, 166, 26, 1);
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(231, 166, 26, 0.56);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(231, 166, 26, 0.56);
+  box-shadow: 0px 0px 5px 2px rgba(231, 166, 26, 0.56);
+}
+
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login__submit {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login__register {
+  width: 340px;
+}
+
+.login__line {
+  width: 300px;
+  margin: 20px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: visible;
+  text-align: center;
+}
+
+.login__line::after {
+  content: "New to Amazon?";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  top: -0.9rem;
+  background: white;
+  font-size: 0.8rem;
+  color: rgb(196, 194, 194);
+}
+
+.login__registerButton {
+  margin-top: 10px;
+  background: #eff0f3;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  background: -webkit-linear-gradient(top, #f7f8fa, #e7e9ec);
+  background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  border-radius: 2px;
+  border-color: #aaaaaa;
+}

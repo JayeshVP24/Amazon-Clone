@@ -1,6 +1,6 @@
 ## The Amazon Clone was made using React and Firebase
 
-I used React Context API for state management and Stripe Payments for the Payment functionality
+I used React Context API for state management and Stripe Payments for the Payment functionality. <br />
 You can't run the program without starting a Firebase project and pasting the Project API keys in the firebase.js file
 ## Available Scripts
 
